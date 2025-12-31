@@ -110,7 +110,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 68px;
-  aspect-ratio: 1 / 1;
+  height: 68px;
   border-radius: 50%;
   background-color: white;
   box-shadow: -3px 3px var(--tml-lg-shdw);
