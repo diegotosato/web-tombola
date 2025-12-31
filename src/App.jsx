@@ -21,8 +21,10 @@ function App() {
           <div className="table-game d-flex">
             {
               numbers.map(num => (
-                <div key={num}>
-                  {num}
+                <div className="token d-flex montserrat" key={num}>
+                  <strong>
+                    {num}
+                  </strong>
                 </div>
               ))
             }
@@ -37,7 +39,7 @@ function App() {
             <div className="btn btn-stopgame"><strong>Termina Gioco</strong></div>
           </div>
         </div>
-      </main>
+      </main >
     </>
   )
 }
