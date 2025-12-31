@@ -22,6 +22,78 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* body {
-  background-color: gray;
-} */
+body {
+  background-color: var(--tml-bg);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.table-game {
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.extract-table {
+  width: 30%;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.extract-number-square {
+  background-color: white;
+  aspect-ratio: 1 / 1;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.extract-number {
+  font-size: 2rem;
+}
+
+.separator {
+  width: 50%;
+  height: 1px;
+  background-color: white;
+}
+
+.btn {
+  padding: 0.65rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 5px white;
+}
+
+.btn-extract {
+  background-color: var(--tml-ex-btn);
+  border: 2px solid black;
+  color: white;
+}
+
+.btn-stopgame {
+  background-color: var(--tml-st-gm);
+  border: 2px solid var(--tml-st-gm);
+  color: var(--tml-bg);
+}

@@ -10,13 +10,34 @@ function App() {
 
   return (
     <>
-      <h1 className="gochi-hand">Web-Tombola</h1>
-      <h2 className="montserrat">Montserrat</h2>
-      {
-        numbers.map(num => (
-          <div key={num}>{num}</div>
-        ))
-      }
+      <header>
+        <div className="container">
+          <h1 className="gochi-hand title">Tombola</h1>
+        </div>
+      </header>
+
+      <main>
+        <div className="container d-flex">
+          <div className="table-game d-flex">
+            {
+              numbers.map(num => (
+                <div key={num}>
+                  {num}
+                </div>
+              ))
+            }
+          </div>
+          <div className="extract-table montserrat d-flex">
+            <strong className="text-center">Ultimo numero estratto</strong>
+            <div className="extract-number-square d-flex">
+              <strong className="extract-number">{numbers[80]}</strong>
+            </div>
+            <div className="separator"></div>
+            <div className="btn btn-extract"><strong>Estrai</strong></div>
+            <div className="btn btn-stopgame"><strong>Termina Gioco</strong></div>
+          </div>
+        </div>
+      </main>
     </>
   )
 }
