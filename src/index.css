@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --tml-bg: #17a494;
+  --tml-lg-shdw: #c4d0c8;
+  --tml-ex-cl: #f88ea2;
+  --tml-ex-shdw: #c7212a;
+  --tml-ex-btn: #f7a201;
+  --tml-ex-btn: #f7a201;
+  --tml-st-gm: #844465;
+}
+
 .gochi-hand {
   font-family: "Gochi Hand", cursive;
 }
